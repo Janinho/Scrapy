@@ -1,0 +1,7 @@
+5) Você diria que bots ou crawlers são programas facilmente paralelizáveis? Se sim, explique como isso seria implementado dando um exemplo.
+Todas as funções de leitura são paralelizadas, de modo que o tempo de leitura dependerá da configuração de sua máquina.
+
+Os crawlers são usados em mecanismos de busca, como o Google, Yahoo, MSN, etc, para varrer a web criando uma cópia das páginas visitadas. Assim podendo utilizar para gerar resultados mais rápidos quando uma busca é solicitada.
+ Para conseguir varrer todas essas páginas relacionadas e capturar um volume grande de dados faz-se necessário que os crawlers apliquem a política de Paralelização.
+Essa politica faz dividir os processos realizados para que seja possível rodar múltiplos processos ao mesmo tempo, esta atividade possui o objetivo de maximizar a taxa de download das páginas.
+É importante que os sites se projejam dos riscos do web scrapping implementando procedimentos simples de TI para que não seja necessário o acionamento das leis obscuras até o momento de proteção a dados.
